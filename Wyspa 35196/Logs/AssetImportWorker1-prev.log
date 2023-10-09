@@ -15,7 +15,11 @@ C:/Users/dwini/Desktop/Wyspa-35196/Wyspa 35196
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
+<<<<<<< Updated upstream:Wyspa 35196/Logs/AssetImportWorker1-prev.log
 57526
+=======
+58858
+>>>>>>> Stashed changes:Wyspa 35196/Logs/AssetImportWorker0.log
 Successfully changed project path to: C:/Users/dwini/Desktop/Wyspa-35196/Wyspa 35196
 C:/Users/dwini/Desktop/Wyspa-35196/Wyspa 35196
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +53,21 @@ C:/Users/dwini/Desktop/Wyspa-35196/Wyspa 35196
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream:Wyspa 35196/Logs/AssetImportWorker1-prev.log
 Player connection [2136] Host "[IP] 192.168.0.105 [Port] 0 [Flags] 2 [Guid] 1988226840 [EditorId] 1988226840 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R2JN20B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [2136] Host "[IP] 192.168.0.105 [Port] 0 [Flags] 2 [Guid] 1988226840 [EditorId] 1988226840 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R2JN20B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
 Refreshing native plugins compatible for Editor in 7.61 ms, found 3 plugins.
+=======
+Player connection [5060] Host "[IP] 192.168.0.105 [Port] 0 [Flags] 2 [Guid] 2381466962 [EditorId] 2381466962 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R2JN20B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [5060] Host "[IP] 192.168.0.105 [Port] 0 [Flags] 2 [Guid] 2381466962 [EditorId] 2381466962 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R2JN20B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 6.83 ms, found 3 plugins.
+>>>>>>> Stashed changes:Wyspa 35196/Logs/AssetImportWorker0.log
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,11 +83,16 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream:Wyspa 35196/Logs/AssetImportWorker1-prev.log
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+>>>>>>> Stashed changes:Wyspa 35196/Logs/AssetImportWorker0.log
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< Updated upstream:Wyspa 35196/Logs/AssetImportWorker1-prev.log
 Registered in 0.010857 seconds.
 - Loaded All Assemblies, in  0.363 seconds
 Native extension for WindowsStandalone target not found
@@ -83,11 +101,22 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.248 seconds
 Domain Reload Profiling: 610ms
 	BeginReloadAssembly (103ms)
+=======
+Registered in 0.010264 seconds.
+- Loaded All Assemblies, in  0.346 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.257 seconds
+Domain Reload Profiling: 602ms
+	BeginReloadAssembly (102ms)
+>>>>>>> Stashed changes:Wyspa 35196/Logs/AssetImportWorker0.log
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream:Wyspa 35196/Logs/AssetImportWorker1-prev.log
 	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (12ms)
 	initialDomainReloadingComplete (68ms)
@@ -110,6 +139,30 @@ Domain Reload Profiling: 610ms
 			BeforeProcessingInitializeOnLoad (2ms)
 			ProcessInitializeOnLoadAttributes (125ms)
 			ProcessInitializeOnLoadMethodAttributes (48ms)
+=======
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (137ms)
+		LoadAssemblies (100ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (121ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (258ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (198ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (127ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+>>>>>>> Stashed changes:Wyspa 35196/Logs/AssetImportWorker0.log
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +170,13 @@ Domain Reload Profiling: 610ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+<<<<<<< Updated upstream:Wyspa 35196/Logs/AssetImportWorker1-prev.log
 - Loaded All Assemblies, in  0.631 seconds
 Refreshing native plugins compatible for Editor in 2.70 ms, found 3 plugins.
+=======
+- Loaded All Assemblies, in  0.597 seconds
+Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
+>>>>>>> Stashed changes:Wyspa 35196/Logs/AssetImportWorker0.log
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,13 +184,20 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< Updated upstream:Wyspa 35196/Logs/AssetImportWorker1-prev.log
 - Finished resetting the current domain, in  0.513 seconds
 Domain Reload Profiling: 1141ms
 	BeginReloadAssembly (144ms)
+=======
+- Finished resetting the current domain, in  0.510 seconds
+Domain Reload Profiling: 1105ms
+	BeginReloadAssembly (139ms)
+>>>>>>> Stashed changes:Wyspa 35196/Logs/AssetImportWorker0.log
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream:Wyspa 35196/Logs/AssetImportWorker1-prev.log
 		CreateAndSetChildDomain (22ms)
 	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (11ms)
@@ -146,6 +211,21 @@ Domain Reload Profiling: 1141ms
 			ScanForSourceGeneratedMonoScriptInfo (14ms)
 			ResolveRequiredComponents (4ms)
 	FinalizeReload (513ms)
+=======
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (372ms)
+		LoadAssemblies (282ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (137ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (511ms)
+>>>>>>> Stashed changes:Wyspa 35196/Logs/AssetImportWorker0.log
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (375ms)
@@ -154,12 +234,17 @@ Domain Reload Profiling: 1141ms
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (54ms)
+<<<<<<< Updated upstream:Wyspa 35196/Logs/AssetImportWorker1-prev.log
 			ProcessInitializeOnLoadAttributes (286ms)
+=======
+			ProcessInitializeOnLoadAttributes (284ms)
+>>>>>>> Stashed changes:Wyspa 35196/Logs/AssetImportWorker0.log
 			ProcessInitializeOnLoadMethodAttributes (18ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
+<<<<<<< Updated upstream:Wyspa 35196/Logs/AssetImportWorker1-prev.log
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
 Refreshing native plugins compatible for Editor in 5.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -167,6 +252,15 @@ Unloading 3069 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3553.
 Memory consumption went from 127.9 MB to 127.8 MB.
 Total: 4.131000 ms (FindLiveObjects: 0.485000 ms CreateObjectMapping: 0.332300 ms MarkObjects: 3.162800 ms  DeleteObjects: 0.149600 ms)
+=======
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3073 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3557.
+Memory consumption went from 127.9 MB to 127.9 MB.
+Total: 3.132500 ms (FindLiveObjects: 0.311700 ms CreateObjectMapping: 0.119900 ms MarkObjects: 2.578700 ms  DeleteObjects: 0.120800 ms)
+>>>>>>> Stashed changes:Wyspa 35196/Logs/AssetImportWorker0.log
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,9 +277,16 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream:Wyspa 35196/Logs/AssetImportWorker1-prev.log
   Time since last request: 533003.285410 seconds.
   path: Assets/New Terrain.asset
   artifactKey: Guid(d81b592b0cbce0e49bdc03bda030ee6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/New Terrain.asset using Guid(d81b592b0cbce0e49bdc03bda030ee6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d8aefb47bad575281ced61c299bf96') in 0.065173 seconds
+=======
+  Time since last request: 539014.434983 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(d81b592b0cbce0e49bdc03bda030ee6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(d81b592b0cbce0e49bdc03bda030ee6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb2847b86be392f1bdf7982febe92bf') in 0.067783 seconds
+>>>>>>> Stashed changes:Wyspa 35196/Logs/AssetImportWorker0.log
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 46
+Number of asset objects unloaded after import = 47
