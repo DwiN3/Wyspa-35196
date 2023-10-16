@@ -182,7 +182,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 820114524}
   m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
 --- !u!4 &382149437 stripped
 Transform:
@@ -362,6 +365,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &820114519 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+  m_PrefabInstance: {fileID: 236817656}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &820114524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 820114519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e0c46d3c5c8c21458ef99b04fb6ab83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorOpenTime: 3
+  doorOpenSound: {fileID: 8300000, guid: 0b5cb7471b5c04d53ad9211a037a15bd, type: 3}
+  doorShutSound: {fileID: 8300000, guid: 1c882c9bd2dd74915bcdcd1859c40a19, type: 3}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
