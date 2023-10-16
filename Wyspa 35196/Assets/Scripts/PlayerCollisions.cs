@@ -28,5 +28,6 @@ public class PlayerCollisions : MonoBehaviour
     void OpenDoor(GameObject door){
         doorIsOpen = true;
         door.GetComponent<AudioSource>().PlayOneShot(doorOpenSound);
+        door.transform.parent.GetComponent<Animation>().Play("dooropen");
     }
 }
