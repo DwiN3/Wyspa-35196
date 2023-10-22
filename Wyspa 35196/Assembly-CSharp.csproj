@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerCollisions.cs" />
     <Compile Include="Assets\Scripts\DoorManager.cs" />
+    <Compile Include="Assets\Scripts\TriggerZone.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
