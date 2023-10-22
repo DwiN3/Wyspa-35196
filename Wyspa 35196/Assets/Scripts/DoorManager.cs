@@ -14,7 +14,11 @@ public class DoorManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+<<<<<<< Updated upstream
 
+=======
+        
+>>>>>>> Stashed changes
     }
 
     // Update is called once per frame
@@ -29,6 +33,7 @@ public class DoorManager : MonoBehaviour
             Door(doorShutSound, false, "doorshut");
             doorTimer = 0.0f;
         }
+<<<<<<< Updated upstream
         RaycastHit hit;
         if (Physics.Raycast(transform.position, transform.forward, out hit, 3))
         {
@@ -44,6 +49,14 @@ public class DoorManager : MonoBehaviour
     {
         if (!doorIsOpen)
         {
+=======
+    }
+    void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if (hit.gameObject.tag == "playerDoor" && doorIsOpen == false)
+        {
+            currentDoor = hit.gameObject;
+>>>>>>> Stashed changes
             Door(doorOpenSound, true, "dooropen");
         }
     }
