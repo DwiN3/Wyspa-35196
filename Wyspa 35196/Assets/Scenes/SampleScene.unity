@@ -149,7 +149,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.98952585
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.x
@@ -157,7 +157,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.14435618
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.z
@@ -169,7 +169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -16.6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -270,6 +270,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -1233657081076909810, guid: 7b5b57d547ed446c795e8b86e881b006, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1869823041}
+    - targetCorrespondingSourceObject: {fileID: -1233657081076909810, guid: 7b5b57d547ed446c795e8b86e881b006, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1869823047}
   m_SourcePrefab: {fileID: 100100000, guid: 7b5b57d547ed446c795e8b86e881b006, type: 3}
 --- !u!1 &705507993
 GameObject:
@@ -382,9 +385,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e0c46d3c5c8c21458ef99b04fb6ab83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorOpenTime: 3
-  doorOpenSound: {fileID: 8300000, guid: 0b5cb7471b5c04d53ad9211a037a15bd, type: 3}
-  doorShutSound: {fileID: 8300000, guid: 1c882c9bd2dd74915bcdcd1859c40a19, type: 3}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,8 +624,23 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.613735, y: 1.6186128, z: 3.0095222}
-  m_Center: {x: -0.9347698, y: -0.0488014, z: 1.4999746}
+  m_Size: {x: 1.884522, y: 0.53452176, z: 3.0095222}
+  m_Center: {x: -0.93750024, y: 0.18750009, z: 1.5000004}
+--- !u!114 &1869823047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869823039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a72b4c9f062bf45409e67a4280d1609b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorOpenTime: 3
+  doorOpenSound: {fileID: 8300000, guid: 0b5cb7471b5c04d53ad9211a037a15bd, type: 3}
+  doorShutSound: {fileID: 8300000, guid: 1c882c9bd2dd74915bcdcd1859c40a19, type: 3}
 --- !u!1 &1996676212
 GameObject:
   m_ObjectHideFlags: 0
