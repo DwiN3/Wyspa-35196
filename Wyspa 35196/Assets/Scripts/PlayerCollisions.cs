@@ -9,25 +9,40 @@ public class PlayerCollisions : MonoBehaviour
     public float doorOpenTime = 3.0f;
     public AudioClip doorOpenSound;
     public AudioClip doorShutSound;
+    GameObject currentDoor;
 
     // Start is called before the first frame update
-    void Start(){
-        
+    void Start()
+    {
+
     }
 
     // Update is called once per frame
-    void Update(){
-        
+    void Update()
+    {
+        if (doorIsOpen)
+        {
+            doorTimer += Time.deltaTime;
+        }
+        if (doorTimer > doorOpenTime)
+        {
+            Door(doorShutSound, false, "doorshut", currentDoor);
+            doorTimer = 0.0f;
+        }
     }
-    void OnControllerColliderHit(ControllerColliderHit hit){
-        if (hit.gameObject.tag == "playerDoor" && doorIsOpen == false){
-            OpenDoor(hit.gameObject);
+    void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if (hit.gameObject.tag == "playerDoor" && doorIsOpen == false)
+        {
+            currentDoor = hit.gameObject;
+            Door(doorOpenSound, true, "dooropen", currentDoor);
         }
     }
 
-    void OpenDoor(GameObject door){
-        doorIsOpen = true;
-        door.GetComponent<AudioSource>().PlayOneShot(doorOpenSound);
-        door.transform.parent.GetComponent<Animation>().Play("dooropen");
+    void Door(AudioClip aClip, bool openCheck, string animName, GameObject thisDoor)
+    {
+        doorIsOpen = openCheck;
+        thisDoor.GetComponent<AudioSource>().PlayOneShot(aClip);
+        thisDoor.transform.parent.GetComponent<Animation>().Play(animName);
     }
 }
