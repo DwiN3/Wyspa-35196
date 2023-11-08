@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TriggerZone : MonoBehaviour
 {
     public AudioClip lockedSound;
     public Light doorLight;
+    public Text textHints;
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +37,7 @@ public class TriggerZone : MonoBehaviour
             {
                 transform.Find("door").GetComponent<AudioSource>().PlayOneShot(lockedSound);
                 col.gameObject.SendMessage("HUDon");
+                textHints.SendMessage("ShowHint", "Te drzwi wygl¹daj¹ na zamkniête, \n byæ mo¿e generatorwymaga \n odpowiedniego zasilania...");
             }
         }
     }

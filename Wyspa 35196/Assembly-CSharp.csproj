@@ -95,6 +95,7 @@
     <Compile Include="Assets\Scripts\PowerCell.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\TriggerZone.cs" />
+    <Compile Include="Assets\Scripts\TextHint.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
   </ItemGroup>
   <ItemGroup>
