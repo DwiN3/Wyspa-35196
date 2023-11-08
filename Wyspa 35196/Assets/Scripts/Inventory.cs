@@ -25,8 +25,16 @@ void Start()
     }
     void CellPickup()
     {
+        HUDon();
         AudioSource.PlayClipAtPoint(collectSound, transform.position);
         charge++;
         chargeHudGUI.texture = hudCharge[charge];
+        void HUDon()
+        {
+            if (!chargeHudGUI.enabled)
+            {
+                chargeHudGUI.enabled = true;
+            }
+        }
     }
 }
