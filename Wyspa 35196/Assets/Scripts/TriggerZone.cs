@@ -5,6 +5,7 @@ using UnityEngine;
 public class TriggerZone : MonoBehaviour
 {
     public AudioClip lockedSound;
+    public Light doorLight;
 
     // Start is called before the first frame update
     void Start()
@@ -15,7 +16,10 @@ public class TriggerZone : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (GameObject.Find("PowerGUI") && Inventory.charge == 4)
+        {
+            doorLight.color = Color.green;
+        }
     }
 
     void OnTriggerEnter(Collider col)
@@ -24,6 +28,7 @@ public class TriggerZone : MonoBehaviour
         {
             if (Inventory.charge == 4)
             {
+                Destroy(GameObject.Find("PowerGUI"));
                 transform.Find("door").SendMessage("DoorCheck");
             }
             else
