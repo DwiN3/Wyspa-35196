@@ -1,13 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour
 {
     public static int charge = 0;
     public AudioClip collectSound;
-    // Start is called before the first frame update
-    void Start()
+    
+    // HUD
+    public Texture2D[] hudCharge;
+    public RawImage chargeHudGUI;
+
+// Start is called before the first frame update
+void Start()
     {
         charge = 0;
     }
@@ -21,5 +27,6 @@ public class Inventory : MonoBehaviour
     {
         AudioSource.PlayClipAtPoint(collectSound, transform.position);
         charge++;
+        chargeHudGUI.texture = hudCharge[charge];
     }
 }
