@@ -12,8 +12,12 @@ public class Inventory : MonoBehaviour
     public Texture2D[] hudCharge;
     public RawImage chargeHudGUI;
 
-// Start is called before the first frame update
-void Start()
+    // Generator
+    public Texture2D[] meterCharge;
+    public Renderer meter;
+
+    // Start is called before the first frame update
+    void Start()
     {
         charge = 0;
     }
@@ -36,5 +40,6 @@ void Start()
                 chargeHudGUI.enabled = true;
             }
         }
+        meter.material.mainTexture = meterCharge[charge];
     }
 }
