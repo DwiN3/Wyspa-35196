@@ -33,11 +33,16 @@ public class TriggerZone : MonoBehaviour
                 Destroy(GameObject.Find("PowerGUI"));
                 transform.Find("door").SendMessage("DoorCheck");
             }
+            else if (Inventory.charge > 0 && Inventory.charge < 4)
+            {
+                textHints.SendMessage("ShowHint", "Drzwi ani drgnÄ… â€¦ \n pewnie potrzebujÄ… wiÄ™cej mocy...");
+                transform.FindChild("door").GetComponent<AudioSource>().PlayOneShot(lockedSound);
+            }
             else
             {
                 transform.Find("door").GetComponent<AudioSource>().PlayOneShot(lockedSound);
                 col.gameObject.SendMessage("HUDon");
-                textHints.SendMessage("ShowHint", "Te drzwi wygl¹daj¹ na zamkniête, \n byæ mo¿e generatorwymaga \n odpowiedniego zasilania...");
+                textHints.SendMessage("ShowHint", "Te drzwi wyglÄ…dajÄ… na zamkniÄ™te, \n byÄ‡ moÅ¼e generatorwymaga \n odpowiedniego zasilania...");
             }
         }
     }
