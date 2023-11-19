@@ -41,14 +41,15 @@ public class Inventory : MonoBehaviour
         AudioSource.PlayClipAtPoint(collectSound, transform.position);
         charge++;
         chargeHudGUI.texture = hudCharge[charge];
-        void HUDon()
-        {
-            if (!chargeHudGUI.enabled)
-            {
-                chargeHudGUI.enabled = true;
-            }
-        }
+        
         meter.material.mainTexture = meterCharge[charge];
+    }
+    void HUDon()
+    {
+        if (!chargeHudGUI.enabled)
+        {
+            chargeHudGUI.enabled = true;
+        }
     }
 
     void MatchPickup()
