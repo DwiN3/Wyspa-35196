@@ -7,7 +7,7 @@ public class Inventory : MonoBehaviour
 {
     public static int charge = 0;
     public AudioClip collectSound;
-    
+
     // HUD
     public Texture2D[] hudCharge;
     public RawImage chargeHudGUI;
@@ -15,6 +15,12 @@ public class Inventory : MonoBehaviour
     // Generator
     public Texture2D[] meterCharge;
     public Renderer meter;
+
+    // Zapa³ki
+    bool haveMatches = false;
+    public RawImage matchHudGUI;
+
+    public Text textHints;
 
     // Start is called before the first frame update
     void Start()
@@ -25,8 +31,9 @@ public class Inventory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
+
     void CellPickup()
     {
         HUDon();
@@ -42,4 +49,40 @@ public class Inventory : MonoBehaviour
         }
         meter.material.mainTexture = meterCharge[charge];
     }
+
+    void MatchPickup()
+    {
+        haveMatches = true;
+        AudioSource.PlayClipAtPoint(collectSound, transform.position);
+        matchHudGUI.enabled = true;
+    }
+
+    void OnControllerColliderHit(ControllerColliderHit col)
+    {
+        if (col.gameObject.name == "campfire")
+        {
+            if (haveMatches)
+            {
+                LightFire(col.gameObject);
+            }
+            else
+            {
+                textHints.SendMessage("ShowHint", "Móg³bym rozpaliæ ognisko do wezwania pomocy. \nTylko czym...");
+            }
+        }
+    }
+    
+    void LightFire(GameObject campfire)
+    {
+        ParticleSystem[] fireEmitters;
+        fireEmitters = campfire.GetComponentsInChildren<ParticleSystem>();
+        foreach (ParticleSystem emitter in fireEmitters)
+        {
+            emitter.Play();
+        }
+        campfire.GetComponent<AudioSource>().Play();
+        matchHudGUI.enabled = false;
+        haveMatches = false;
+    }
+
 }
