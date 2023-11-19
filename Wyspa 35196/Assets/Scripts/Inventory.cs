@@ -19,6 +19,7 @@ public class Inventory : MonoBehaviour
     // Zapa³ki
     bool haveMatches = false;
     public RawImage matchHudGUI;
+    bool campfireIsBurning = false;
 
     public Text textHints;
 
@@ -65,7 +66,7 @@ public class Inventory : MonoBehaviour
             {
                 LightFire(col.gameObject);
             }
-            else
+            else if(!campfireIsBurning)
             {
                 textHints.SendMessage("ShowHint", "Móg³bym rozpaliæ ognisko do wezwania pomocy. \nTylko czym...");
             }
@@ -83,6 +84,7 @@ public class Inventory : MonoBehaviour
         campfire.GetComponent<AudioSource>().Play();
         matchHudGUI.enabled = false;
         haveMatches = false;
+        campfireIsBurning = true;
     }
 
 }
