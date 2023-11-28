@@ -6,6 +6,8 @@ using UnityEngine;
 public class CoconutThrower : MonoBehaviour
 {
     public AudioClip throwSound;
+    public Rigidbody coconutPrefab;
+    public float throwSpeed = 30.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +21,10 @@ public class CoconutThrower : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             GetComponent<AudioSource>().PlayOneShot(throwSound);
+            Rigidbody newCoconut =  Instantiate(coconutPrefab, transform.position, transform.rotation) as Rigidbody;
+            newCoconut.name = "coconut";
+            newCoconut.velocity = transform.forward * throwSpeed;
         }
+        
     }
 }
