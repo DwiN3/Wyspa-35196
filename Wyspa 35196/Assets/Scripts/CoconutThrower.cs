@@ -29,6 +29,8 @@ public class CoconutThrower : MonoBehaviour
             Rigidbody newCoconut = Instantiate(coconutPrefab, transform.position, transform.rotation) as Rigidbody;
             newCoconut.name = "coconut";
             newCoconut.velocity = transform.forward * throwSpeed;
+            /*Physics.IgnoreCollision(transform.root.GetComponent<Collider>(), 
+            newCoconut.GetComponent<Collider>(), true);*/
         }
     }
 }

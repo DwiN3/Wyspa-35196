@@ -42,7 +42,7 @@ public class TriggerZone : MonoBehaviour
             {
                 transform.Find("door").GetComponent<AudioSource>().PlayOneShot(lockedSound);
                 col.gameObject.SendMessage("HUDon");
-                textHints.SendMessage("ShowHint", "Te drzwi wyglądają na zamknięte, \n być może generator wymaga \n odpowiedniego zasilania...");
+                textHints.SendMessage("ShowHint", "Te drzwi wyglądają na zamknięte,\n być może generator wymaga\n odpowiedniego zasilania...");
             }
         }
     }
