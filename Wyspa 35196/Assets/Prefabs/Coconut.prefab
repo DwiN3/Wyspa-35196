@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3571514616881349460}
   m_Layer: 8
   m_Name: Coconut
-  m_TagString: Untagged
+  m_TagString: coconut
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

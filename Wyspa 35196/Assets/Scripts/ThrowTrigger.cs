@@ -21,7 +21,6 @@ public class ThrowTrigger : MonoBehaviour
         if (col.gameObject.tag == "Player")
         {
             CoconutThrower.canThrow = true;
-            CoconutThrower.ResetBalls();
         }
     }
 
