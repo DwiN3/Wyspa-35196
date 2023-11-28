@@ -361,6 +361,8 @@
 "Assets/Scripts/PlayerCollisions.cs"
 "Assets/Scripts/PowerCell.cs"
 "Assets/Scripts/TextHint.cs"
+"Assets/Scripts/ThrowTrigger.cs"
+"Assets/Scripts/TidyObject.cs"
 "Assets/Scripts/TriggerZone.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
