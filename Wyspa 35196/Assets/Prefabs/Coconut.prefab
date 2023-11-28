@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3614700300170176537}
   - component: {fileID: 1870680579086913818}
   - component: {fileID: 3571514616881349460}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Coconut
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,4 +132,4 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
