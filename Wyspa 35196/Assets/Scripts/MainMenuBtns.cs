@@ -12,6 +12,7 @@ public class MainMenuBtns : MonoBehaviour, IPointerUpHandler, IPointerDownHandle
     public Sprite normalTexture;
     public Sprite rollOverTexture;
     public AudioClip beep;
+    public bool quitButton = false;
 
     // Update is called once per frame
     void Update()
@@ -30,7 +31,21 @@ public class MainMenuBtns : MonoBehaviour, IPointerUpHandler, IPointerDownHandle
     {
         GetComponent<AudioSource>().PlayOneShot(beep);
         SceneManager.LoadScene(levelToLoad);
-    }
+        if (quitButton)
+        {
+            #if UNITY_EDITOR
+                UnityEditor.EditorApplication.isPlaying = false;
+            #else
+                Application.Quit();
+            #endif
+        }
+        else
+        {
+            GetComponent<AudioSource>().PlayOneShot(beep);
+            SceneManager.LoadScene(levelToLoad);
+        }
+     }
+
     public void OnPointerDown(PointerEventData eventData)
     {
     }
