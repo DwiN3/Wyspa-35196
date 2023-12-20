@@ -358,6 +358,7 @@
 "Assets/Scripts/CoconutWin.cs"
 "Assets/Scripts/DoorManager.cs"
 "Assets/Scripts/Inventory.cs"
+"Assets/Scripts/MainMenuBtns.cs"
 "Assets/Scripts/Matches.cs"
 "Assets/Scripts/PlayerCollisions.cs"
 "Assets/Scripts/PowerCell.cs"
