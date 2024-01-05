@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 [RequireComponent(typeof(AudioSource))]
+
 
 public class MainMenuGUI : MonoBehaviour
 {
@@ -42,14 +44,14 @@ public class MainMenuGUI : MonoBehaviour
             menuArea.height *= coefY;
         }
         playBtnRect = new Rect(50 * coefX, 250 * coefY, buttonWidth * coefX, buttonHeight * coefY);
-        instructionsBtnRect = new Rect(50 * coefX, (250 + buttonHeight + space) * coefY,buttonWidth * coefX, buttonHeight * coefY);
+        instructionsBtnRect = new Rect(50 * coefX, (250 + buttonHeight + space) * coefY, buttonWidth * coefX, buttonHeight * coefY);
         quitBtnRect = new Rect(50 * coefX, (250 + (buttonHeight + space) * 2) * coefY, buttonWidth * coefX, buttonHeight * coefY);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     void OnGUI()
@@ -61,6 +63,7 @@ public class MainMenuGUI : MonoBehaviour
         {
             Debug.Log("Naciœniêto start");
             GetComponent<AudioSource>().PlayOneShot(beep);
+            StartCoroutine("ButtonAction", "SampleScene");
         }
         if (GUI.Button(instructionsBtnRect, "Instructions"))
         {
@@ -71,7 +74,25 @@ public class MainMenuGUI : MonoBehaviour
         {
             Debug.Log("Naciœniêto quit");
             GetComponent<AudioSource>().PlayOneShot(beep);
+            StartCoroutine("ButtonAction", "quit");
         }
         GUI.EndGroup();
+    }
+    IEnumerator ButtonAction(string levelName)
+    {
+        GetComponent<AudioSource>().PlayOneShot(beep);
+        yield return new WaitForSeconds(0.35f);
+        if (levelName != "quit")
+        {
+            SceneManager.LoadScene(levelName);
+        }
+        else
+        {
+#if UNITY_EDITOR
+                UnityEditor.EditorApplication.isPlaying = false;
+#else
+            Application.Quit();
+#endif
+        }
     }
 }
