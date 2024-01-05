@@ -360,6 +360,7 @@
 "Assets/Scripts/Inventory.cs"
 "Assets/Scripts/LoadScene.cs"
 "Assets/Scripts/MainMenuBtns.cs"
+"Assets/Scripts/MainMenuGUI.cs"
 "Assets/Scripts/Matches.cs"
 "Assets/Scripts/PlayerCollisions.cs"
 "Assets/Scripts/PowerCell.cs"
