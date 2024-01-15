@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638409555446137432
-    m_Hash: 624384044
+      ticks: 638409583121947722
+    m_Hash: 3334707612
   m_LockFileStatus:
     m_FilePath: C:/Users/dwini/Desktop/Wyspa-35196/Wyspa 35196/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638409555446197121
-    m_Hash: 4181364800
+      ticks: 638409583121947722
+    m_Hash: 2179846114
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
