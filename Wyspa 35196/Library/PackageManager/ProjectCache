@@ -6,11 +6,16 @@ m_ProjectFiles:
     m_ModificationDate:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       ticks: 638335639816920325
     m_Hash: 2850356363
 =======
       ticks: 638409546765936779
     m_Hash: 2924642244
+>>>>>>> Stashed changes
+=======
+      ticks: 638409574393561232
+    m_Hash: 3334707612
 >>>>>>> Stashed changes
   m_LockFileStatus:
     m_FilePath: C:/Users/dwini/Desktop/Wyspa-35196/Wyspa 35196/Packages/packages-lock.json
@@ -19,11 +24,16 @@ m_ProjectFiles:
     m_ModificationDate:
       serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       ticks: 638335639816920325
     m_Hash: 3977217051
 =======
       ticks: 638409546766001712
     m_Hash: 1583679639
+>>>>>>> Stashed changes
+=======
+      ticks: 638409574393561232
+    m_Hash: 2179846114
 >>>>>>> Stashed changes
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
