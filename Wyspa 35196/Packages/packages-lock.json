@@ -1,5 +1,6 @@
 {
   "dependencies": {
+<<<<<<< Updated upstream
     "com.unity.ai.navigation": {
       "version": "2.0.0",
       "depth": 0,
@@ -9,6 +10,8 @@
       },
       "url": "https://packages.unity.com"
     },
+=======
+>>>>>>> Stashed changes
     "com.unity.collab-proxy": {
       "version": "2.0.7",
       "depth": 0,
