@@ -2,28 +2,32 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class BiteByWolf : MonoBehaviour
 {
     GameObject _player;
-    // Start is called before the first frame update
+
     void Start()
     {
         _player = GameObject.FindGameObjectWithTag("Player");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject == _player)
         {
+<<<<<<< Updated upstream
             SceneManager.LoadScene("Menu");
+=======
+            // SprawdŸ, czy obiekt posiada skrypt showDieInfo
+            showDieInfo dieInfoScript = other.GetComponent<showDieInfo>();
+            if (dieInfoScript != null)
+            {
+                dieInfoScript.OnWolfBite();
+            }
+
+            Invoke("SwitchScene", 0.1f);
+>>>>>>> Stashed changes
         }
     }
 }

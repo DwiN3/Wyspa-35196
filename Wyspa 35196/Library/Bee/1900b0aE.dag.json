@@ -27524,10 +27524,14 @@
 =======
       "PayloadOffset": 1822785,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "PayloadLength": 36286,
 >>>>>>> Stashed changes
 =======
       "PayloadLength": 36418,
+>>>>>>> Stashed changes
+=======
+      "PayloadLength": 36523,
 >>>>>>> Stashed changes
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -27553,6 +27557,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "PayloadOffset": 1585976,
 =======
       "PayloadOffset": 1585951,
@@ -27568,6 +27573,9 @@
 >>>>>>> Stashed changes
 =======
       "PayloadOffset": 1859290,
+>>>>>>> Stashed changes
+=======
+      "PayloadOffset": 1859395,
 >>>>>>> Stashed changes
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
@@ -27837,7 +27845,62 @@
         "Assets/Scripts/CoconutWin.cs",
 >>>>>>> Stashed changes
         "Assets/Scripts/DoorManager.cs",
+<<<<<<< Updated upstream
         "Assets/Scripts/PlayerCollisions.cs",
+=======
+        "Assets/Scripts/Hit.cs",
+        "Assets/Scripts/IBittenByWolf.cs",
+        "Assets/Scripts/Inventory.cs",
+        "Assets/Scripts/LoadScene.cs",
+        "Assets/Scripts/MainMenuBtns.cs",
+        "Assets/Scripts/MainMenuGUI.cs",
+        "Assets/Scripts/Matches.cs",
+        "Assets/Scripts/PlayerCollisions.cs",
+        "Assets/Scripts/PowerCell.cs",
+        "Assets/Scripts/QuitGame.cs",
+        "Assets/Scripts/showDieInfo.cs",
+        "Assets/Scripts/TargetCollision.cs",
+        "Assets/Scripts/TextHint.cs",
+        "Assets/Scripts/ThrowTrigger.cs",
+        "Assets/Scripts/TidyObject.cs",
+        "Assets/Scripts/TriggerWolf.cs",
+        "Assets/Scripts/TriggerZone.cs",
+        "Assets/Scripts/WolfBiteMessage.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark03.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark04.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/CameraController.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/ChatController.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/DropdownSample.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/EnvMapAnimator.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/ObjectSpin.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/ShaderPropAnimator.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/SimpleScript.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/SkewTextExample.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/TeleType.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/TextConsoleSimulator.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshProFloatingText.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/TextMeshSpawner.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/TMPro_InstructionOverlay.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_DigitValidator.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_ExampleScript_01.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_FrameRateCounter.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_PhoneNumberValidator.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventCheck.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextEventHandler.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextInfoDebugTool.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_A.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_TextSelector_B.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/TMP_UiFrameRateCounter.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexColorCycler.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexJitter.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeA.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs",
+        "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs",
+>>>>>>> Stashed changes
         "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp"
@@ -27946,6 +28009,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "PayloadOffset": 1586072,
 =======
       "PayloadOffset": 1586047,
@@ -27958,6 +28022,9 @@
 >>>>>>> Stashed changes
 =======
       "PayloadOffset": 1859386,
+>>>>>>> Stashed changes
+=======
+      "PayloadOffset": 1859491,
 >>>>>>> Stashed changes
       "PayloadLength": 9908,
 >>>>>>> Stashed changes
