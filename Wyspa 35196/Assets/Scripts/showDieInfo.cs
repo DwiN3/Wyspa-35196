@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class showDieInfo : MonoBehaviour
 {
-    bool showInfo = true;
+    bool showInfo = false; // Domyœlnie ustawione na false
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +22,12 @@ public class showDieInfo : MonoBehaviour
             showInfo = !showInfo;
             SetObjectVisibility();
         }
+    }
+
+    public void SetShowInfo(bool value)
+    {
+        showInfo = value;
+        SetObjectVisibility();
     }
 
     void SetObjectVisibility()

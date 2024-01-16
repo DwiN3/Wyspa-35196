@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class BiteByWolf : MonoBehaviour
 {
     GameObject _player;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,13 +16,23 @@ public class BiteByWolf : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject == _player)
         {
+            // ZnajdŸ obiekt ze skryptem showDieInfo w scenie
+            showDieInfo showInfoScript = FindObjectOfType<showDieInfo>();
+
+            // Jeœli znaleziono skrypt, zmieñ wartoœæ showInfo na true
+            if (showInfoScript != null)
+            {
+                showInfoScript.SetShowInfo(true);
+            }
+
+            // Prze³¹cz scenê po 0.1 sekundy
             Invoke("SwitchScene", 0.1f);
         }
     }
