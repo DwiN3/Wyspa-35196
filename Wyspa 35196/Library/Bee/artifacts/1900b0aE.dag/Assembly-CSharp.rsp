@@ -366,6 +366,7 @@
 "Assets/Scripts/CoconutThrower.cs"
 "Assets/Scripts/CoconutWin.cs"
 "Assets/Scripts/DoorManager.cs"
+"Assets/Scripts/Hit.cs"
 "Assets/Scripts/Inventory.cs"
 "Assets/Scripts/LoadScene.cs"
 "Assets/Scripts/MainMenuBtns.cs"
