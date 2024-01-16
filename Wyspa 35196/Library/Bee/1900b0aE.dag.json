@@ -27523,7 +27523,11 @@
 >>>>>>> Stashed changes
 =======
       "PayloadOffset": 1822785,
+<<<<<<< Updated upstream
       "PayloadLength": 36286,
+>>>>>>> Stashed changes
+=======
+      "PayloadLength": 36418,
 >>>>>>> Stashed changes
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -27548,6 +27552,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "PayloadOffset": 1585976,
 =======
       "PayloadOffset": 1585951,
@@ -27560,6 +27565,9 @@
 >>>>>>> Stashed changes
 =======
       "PayloadOffset": 1859158,
+>>>>>>> Stashed changes
+=======
+      "PayloadOffset": 1859290,
 >>>>>>> Stashed changes
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
@@ -27820,6 +27828,11 @@
 >>>>>>> Stashed changes
 =======
         "Assets/Following.cs",
+<<<<<<< Updated upstream
+=======
+        "Assets/Running.cs",
+        "Assets/Scripts/BiteByWolf.cs",
+>>>>>>> Stashed changes
         "Assets/Scripts/CoconutThrower.cs",
         "Assets/Scripts/CoconutWin.cs",
 >>>>>>> Stashed changes
@@ -27932,6 +27945,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "PayloadOffset": 1586072,
 =======
       "PayloadOffset": 1586047,
@@ -27941,6 +27955,9 @@
       "PayloadOffset": 1859221,
 =======
       "PayloadOffset": 1859254,
+>>>>>>> Stashed changes
+=======
+      "PayloadOffset": 1859386,
 >>>>>>> Stashed changes
       "PayloadLength": 9908,
 >>>>>>> Stashed changes

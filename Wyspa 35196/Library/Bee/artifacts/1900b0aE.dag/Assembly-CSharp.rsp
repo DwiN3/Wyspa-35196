@@ -361,6 +361,11 @@
 >>>>>>> Stashed changes
 =======
 "Assets/Following.cs"
+<<<<<<< Updated upstream
+=======
+"Assets/Running.cs"
+"Assets/Scripts/BiteByWolf.cs"
+>>>>>>> Stashed changes
 "Assets/Scripts/CoconutThrower.cs"
 "Assets/Scripts/CoconutWin.cs"
 >>>>>>> Stashed changes
