@@ -7,6 +7,7 @@ m_ProjectFiles:
       serializedVersion: 2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       ticks: 638409576261844714
     m_Hash: 147361234
 =======
@@ -15,6 +16,9 @@ m_ProjectFiles:
 >>>>>>> Stashed changes
 =======
       ticks: 638409583121947722
+=======
+      ticks: 638410152705261492
+>>>>>>> Stashed changes
     m_Hash: 3334707612
 >>>>>>> Stashed changes
   m_LockFileStatus:
@@ -25,6 +29,7 @@ m_ProjectFiles:
       serializedVersion: 2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       ticks: 638409576261854733
     m_Hash: 2634501993
 =======
@@ -33,6 +38,9 @@ m_ProjectFiles:
 >>>>>>> Stashed changes
 =======
       ticks: 638409583121947722
+=======
+      ticks: 638410152705271500
+>>>>>>> Stashed changes
     m_Hash: 2179846114
 >>>>>>> Stashed changes
 m_EmbeddedPackageManifests:
