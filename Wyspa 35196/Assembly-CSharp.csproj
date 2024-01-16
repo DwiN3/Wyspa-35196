@@ -83,6 +83,10 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+    <Compile Include="Assets\Scripts\ShowDieInfo.cs" />
 >>>>>>> Stashed changes
     <Compile Include="Assets\Scripts\DoorManager.cs" />
 <<<<<<< Updated upstream
