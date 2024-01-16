@@ -23,6 +23,7 @@ public class TriggerWolf : MonoBehaviour
         if (other.gameObject == _player)
         {
             _animator.SetBool("isNearPlayer", true);
+            Debug.Log("Uwaga wilk!!!");
         }
     }
     void OnTriggerExit(Collider other)
@@ -30,6 +31,7 @@ public class TriggerWolf : MonoBehaviour
         if (other.gameObject == _player)
         {
             _animator.SetBool("isNearPlayer", false);
+            Debug.Log("Wilk zgubi³ trop");
         }
     }
     }
