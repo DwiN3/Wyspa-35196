@@ -364,6 +364,7 @@
 "Assets/Falling.cs"
 "Assets/Following.cs"
 "Assets/Running.cs"
+"Assets/Scripts/BiteByWolf.cs"
 "Assets/Scripts/CoconutThrower.cs"
 "Assets/Scripts/CoconutWin.cs"
 "Assets/Scripts/DoorManager.cs"
