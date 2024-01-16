@@ -1,29 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using static UnityEditor.Experimental.GraphView.GraphView;
+using UnityEngine.UI;
 
 public class BiteByWolf : MonoBehaviour
 {
     GameObject _player;
-    // Start is called before the first frame update
+    public Text textHints;
+
     void Start()
     {
         _player = GameObject.FindGameObjectWithTag("Player");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject == _player)
         {
-            Invoke("SwitchScene", 0.1f);
+            textHints.text = "Wilk ciê ugryz³";
+            Invoke("SwitchScene", 4.0f);
         }
     }
 

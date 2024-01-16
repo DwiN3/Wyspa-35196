@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class showDieInfo : MonoBehaviour
 {
-    bool showInfo = true;
+    bool showInfo = false;
 
     // Start is called before the first frame update
     void Start()
