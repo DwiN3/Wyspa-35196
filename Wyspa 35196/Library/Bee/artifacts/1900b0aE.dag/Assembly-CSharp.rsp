@@ -362,6 +362,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Following.cs"
+"Assets/Running.cs"
 "Assets/Scripts/CoconutThrower.cs"
 "Assets/Scripts/CoconutWin.cs"
 "Assets/Scripts/DoorManager.cs"
