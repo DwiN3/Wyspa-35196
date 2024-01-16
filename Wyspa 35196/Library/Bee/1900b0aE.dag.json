@@ -27506,6 +27506,7 @@
       "ActionType": "WriteFile",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "PayloadOffset": 1552906,
 <<<<<<< Updated upstream
       "PayloadLength": 32983,
@@ -27519,6 +27520,10 @@
 =======
       "PayloadOffset": 1648902,
       "PayloadLength": 35948,
+>>>>>>> Stashed changes
+=======
+      "PayloadOffset": 1822785,
+      "PayloadLength": 36286,
 >>>>>>> Stashed changes
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -27542,6 +27547,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "PayloadOffset": 1585976,
 =======
       "PayloadOffset": 1585951,
@@ -27551,6 +27557,9 @@
 >>>>>>> Stashed changes
 =======
       "PayloadOffset": 1684937,
+>>>>>>> Stashed changes
+=======
+      "PayloadOffset": 1859158,
 >>>>>>> Stashed changes
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
@@ -27805,8 +27814,14 @@
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         "Assets/DoorManager.cs",
 =======
+>>>>>>> Stashed changes
+=======
+        "Assets/Following.cs",
+        "Assets/Scripts/CoconutThrower.cs",
+        "Assets/Scripts/CoconutWin.cs",
 >>>>>>> Stashed changes
         "Assets/Scripts/DoorManager.cs",
         "Assets/Scripts/PlayerCollisions.cs",
@@ -27916,6 +27931,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "PayloadOffset": 1586072,
 =======
       "PayloadOffset": 1586047,
@@ -27923,6 +27939,9 @@
       "PayloadLength": 9366,
 =======
       "PayloadOffset": 1859221,
+=======
+      "PayloadOffset": 1859254,
+>>>>>>> Stashed changes
       "PayloadLength": 9908,
 >>>>>>> Stashed changes
 =======
