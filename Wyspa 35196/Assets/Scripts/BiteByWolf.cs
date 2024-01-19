@@ -17,7 +17,7 @@ public class BiteByWolf : MonoBehaviour
         if (other.gameObject == _player)
         {
             textHints.text = "Wilk ciê ugryz³";
-            Invoke("SwitchScene", 4.0f);
+            Invoke("SwitchScene", 2.0f);
         }
     }
 

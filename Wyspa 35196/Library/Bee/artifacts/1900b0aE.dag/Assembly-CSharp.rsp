@@ -377,7 +377,7 @@
 "Assets/Scripts/PlayerCollisions.cs"
 "Assets/Scripts/PowerCell.cs"
 "Assets/Scripts/QuitGame.cs"
-"Assets/Scripts/showDieInfo.cs"
+"Assets/Scripts/ShowDieInfo.cs"
 "Assets/Scripts/TargetCollision.cs"
 "Assets/Scripts/TextHint.cs"
 "Assets/Scripts/ThrowTrigger.cs"
